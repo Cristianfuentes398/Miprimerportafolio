@@ -1,0 +1,20 @@
+.header{
+    padding-top: 20px;
+    &__image{
+        width: 500px;
+    }
+    &__name{
+        margin-top: 30px;
+        color: $blue__title;
+    }
+    &__subtitle{
+        color: #4b56f0;
+    }
+}
+@media screen and (max-width:1000px) {
+    .header{
+        &__image{
+            width: 350px;
+        }
+    }
+}

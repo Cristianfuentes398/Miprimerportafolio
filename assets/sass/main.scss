@@ -1,0 +1,36 @@
+// abstracts/
+// vendors/
+// base/
+// layout/
+// components/
+// pages/
+// themes/
+
+@import "abstract/variables";
+@import "base/base";
+@import "base/typography";
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/skills";
+@import "layout/proyect";
+@import "layout/footer";
+
+@import "components/button";
+
+button.btn.btn-primary.btn-lg {
+    background-color:$blue__title;
+}
+a.navbar-brand {
+    color: $blue__title;
+    font-size: 31px
+}
+body{
+    background-color: red
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+
+
+
+

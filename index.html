@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://kit.fontawesome.com/6262dc69d7.js" crossorigin="anonymous"></script>
+    <title>Mi primer portafolio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-3 ">
+        <div class="container">
+            <a class="navbar-brand" href="#">PeterParker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Mis habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyect">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="container header" id="home">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 p-0">
+                <img class="header__image" src="./assets/img/developer.svg" alt="developer">
+            </div>
+            <div class="col-sm-12 col-md-6 p-0 ">
+                <h1 class="header__name">Soy Peter Parker</h1>
+                <h2 class="header__subtitle">Desarrollador FrontEnd</h2>
+                <p class="header__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores est fugiat facere dicta accusamus. Dolor facere illo libero vitae ipsa hic nesciunt corrupti laboriosam, modi nostrum optio, aspernatur voluptatum error?</p>
+                <button type="button" class="btn btn-primary btn-lg header__button--contact">contactame</button>
+            </div>
+        </div>
+    </header>
+
+    <section class=" container skills text-center py-5" id="skills">
+        <h3 class="skills__description"> Mis habilidades</h3>
+        <div class=" row skills__logos">
+            <div class="col-6 col-md-6 justify-content-md-end">
+                <div class="row">
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/html.png" alt="html">
+                        <P class="skills__paragraph"> HTML </P>
+                    </div>
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="col-md-2 skills__image" src="./assets/img/logos/css.png" alt="css">
+                        <P class="col-md-2 __paragraph"> CSS </P>
+                    </div>
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/sass.png" alt="sass">
+                        <P class="skills__paragraph"> Sass </P>
+                    </div>
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/bootstrap-logo.png" alt="bootstrap-logo">
+                        <P class="skills__paragraph"> Bootstrap </P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 justify-content-md-start">
+                <div class="row">
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/git.png" alt="git">
+                        <P class="skills__paragraph"> Git </P>
+                    </div>
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/github.png" alt="github">
+                        <P class="skills__paragraph"> GitHub </P>
+                    </div>
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/js.png" alt="js">
+                        <P class="skills__paragraph"> JavaScript </P>
+                    </div>
+                    <div class="col-md-3 skills__block d-flex">
+                        <img class="skills__image" src="./assets/img/logos/vue.png" alt="vue">
+                        <P class="skills__paragraph"> Vue </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <article class="container proyect" id="proyect">
+        <h3 class="proyect__subtitle text-center">Mis proyectos</h3>
+        <div class="row pt-4">
+            <div class="col-6 col-md-6">
+                <div class="row justify-content-start">
+                    <div class="col-md-6 proyect__block">
+                        <img class="proyect__image " src="./assets/img/meetcoffee.png" alt="meetcoffee">
+                        <P class="proyect__paragraph"> Meet & Coffee </P>
+                    </div>
+                    <div class="col-md-6 proyect__block">
+                        <img class="proyect__image " src="./assets/img/meetcoffee.png" alt="meetcoffee">
+                        <P class="proyect__paragraph"> Meet & Coffee </P>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6">
+                <div class="row justify-content-start">
+                    <div class="col-md-6 proyect__block">
+                        <img class="proyect__image " src="./assets/img/meetcoffee.png" alt="meetcoffee">
+                        <P class="proyect__paragraph"> Meet & Coffee </P>
+                    </div>
+                    <div class="col-md-6 proyect__block">
+                        <img class="proyect__image " src="./assets/img/meetcoffee.png" alt="meetcoffee">
+                        <P class="proyect__paragraph"> Meet & Coffee </P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="container contact" id="contact">
+        <h3 class="contact__subtitle text-center py-5">Contactame</h3>
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="mb-3 d-flex">
+                    <input type="name" class="form-control contact__form--name" id="exampleFormControlInput1" placeholder="Nombre">
+                    <input type="lastname" class="form-control contact__form--lastname" id="exampleFormControlInput1" placeholder="Apellido">
+                </div>
+                <div class="mb-3 contact__email">
+                    <input type="email" class="form-control contact__form--email" id="exampleFormControlInput1" placeholder="Tu Email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                    <button type="button" class="btn btn-primary btn-lg contact__button--send mt-3">Enviar</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="contact__icons">
+                    <i class="fa-solid fa-phone"></i>
+                    <num class="number px-2">+5699994563</num>
+                </div>
+                <div class="contact__icons d-flex mt-2">
+                    <i class="fa-solid fa-envelope mt-1"></i>
+                    <p class="paragraph px-3">tuemail@gmail.com</p>
+                </div>
+                <div class="contact__icons d-flex mt-2">
+                    <i class="fa-brands fa-linkedin mt-1"></i>
+                    <p class="paragraph px-3">tulinkedin</p>
+                </div>
+                <div class="contact__icons d-flex mt-2">
+                    <i class="fa-brands fa-github mt-1"></i>
+                    <p class="paragraph px-3">tu GitHub</p>
+                </div>
+                <div class="contact__icons d-flex mt-2">
+                    <i class="fa-brands fa-instagram mt-1"></i>
+                    <p class="paragraph px-3">tu Instagram</p>
+                </div>
+
+            </div>
+    </footer>
+
+</body>
+</html>

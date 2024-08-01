@@ -1,0 +1,20 @@
+.skills{
+    color: $blue__title;
+    &__image{
+        width: 30px;
+        height: 30px;
+        
+    }
+    &__paragraph{
+        font-size: 11px;
+        padding-top: 8px;
+        font-weight: bold;
+        margin-left: 5px;
+    }
+    &__logos{
+        padding-top: 30px;
+    }
+    // &__block{
+    //     // padding-left: 55px;
+    // }
+}
