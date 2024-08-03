@@ -5,7 +5,7 @@
 // components/
 // pages/
 // themes/
-
+@import '../../node_modules/bootstrap/scss/bootstrap';
 @import "abstract/variables";
 @import "base/base";
 @import "base/typography";
@@ -25,10 +25,10 @@ a.navbar-brand {
     font-size: 31px
 }
 body{
-    background-color: red
+    background-color: rgb(215, 223, 209)
 }
 
-@import '../../node_modules/bootstrap/scss/bootstrap';
+
 
 
 
